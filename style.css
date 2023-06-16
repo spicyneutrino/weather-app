@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f1faee;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    margin: 10px;
+}
+
+
+.left-section,
+.mid-section,
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33.33%;
+    height: 100%;
+}
+/* left section */
+
+h1{
+    font-size: 60px;
+    margin-top: 30px;
+    color: #1d3557;
+}
+
+h2{
+    font-size: 30px;
+    color: #1d3557;
+}
+
+.feels-like{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+/* mid section */
+
+form{
+    display: flex;
+    margin-top: 50px;
+}
+
+#input-location{
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    width: 70%;
+    height: 30px;
+    margin-left: 15px;
+    font-size: 18px;
+    box-shadow: 1px 1px 100px 10px rgba(29, 53, 87, 0.722);
+    text-indent: 8px;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 2px;
+    margin-left: -3px;
+    background-color: none;
+    box-shadow: 1px 1px 100px 10px rgba(29, 53, 87, 0.722);
+}
+.button img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+
+}
+
+/* right section */
+
+.right-section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a8dadc;
+    border-radius: 4px;
+}
+
+.temperature{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #1d3557;
+}
+
+.condition{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.condition-text,.humidity,.wind-speed{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.condition-img > img{
+    height: 100px;
+}
